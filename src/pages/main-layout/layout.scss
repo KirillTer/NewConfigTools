@@ -1,0 +1,35 @@
+.layout {
+  height: 100%;
+}
+.sider {
+  background-color: white;
+}
+.trigger {
+  font-size: 1.8rem;
+  line-height: 6.4rem;
+  width: 100%;
+  min-height: 'calc(100vh - 6.4rem)';
+  cursor: pointer;
+  background: #2185D0;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: white;
+}
+
+.header { 
+  background: #2185D0;
+  color: white;
+  padding: 0 
+}
+
+.layoutContent {
+  margin: '24px 16px';
+  padding: 24;
+  background: '#fff';
+  min-height: 'calc(100vh - 112px)';
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'flex-start'
+}
